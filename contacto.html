@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marina Torres">
+    <meta name="keywords" content="Formulario, HTML">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>+Cotas</title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="img/object1720363894.png" alt="menu">
+        <nav>
+            <ul id="menu" style="list-style:none;">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="quienessomos.html">Quienes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contenedor4">
+        <h1>Contactenos</h1>
+        <p>+COTAS Toledo: Ronda de Toledo, 30. Telf: 999 999 999 </p>
+        <p>+COTAS Ciudad Real: Ronda de Calatraba, 51. Telf: 999 999 555</p>
+        <p>+COTAS Cuenca: Calle Molinos, 25. Telf: 999 999 555</p>
+
+        <h1>Formulario de Contacto</h1>
+        <form>
+            <fieldset>
+                <p>
+                    <label for="nombreyapellido">Nombre y Apellido: *</label>
+                    <input type="text" name="nombreyapellido" id="nombreyapellido" required placeholder="Tu nombre">
+                </p>
+                <p>
+                    <label for="email">Tu email:<br></label>
+                    <input type="text" name="email" id="email" placeholder="tunombre@dominio.com">
+                </p>
+                <p>
+                    <label for="telefono">Teléfono: </label>
+                    <input type="text" name="tlf" id="tlf">
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje: </label>
+                    <input type="text" name="mensaje" id="mensaje">
+                </p>
+                <p id="botones">
+                    <input type="submit" value="Enviar" id="boton1">
+
+                    <input type="reset" value="Limpiar" id="boton2">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

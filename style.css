@@ -1,0 +1,85 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+}
+/* Inicio */
+header{
+    text-align: center;
+}
+#menu {
+    color: white;
+    background-color: rgb(35, 45, 59);
+    border-radius: 20px;
+    height: 40px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.836);
+}
+#menu li{
+    display: inline;
+    margin: 20px;
+    
+}
+#menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+#menu li a:hover{
+    color: rgb(195, 241, 255);
+}
+#contenedor1{
+    margin-top: 50px;
+}
+#contenedorimg,#contenedorp{
+    width: 100%;
+    display: inline;
+    overflow: hidden;
+}
+#contenedorp{
+    display: inline; 
+}
+#contenedorimg{
+    width: 50%;
+    display: inline;
+}
+#contenedorimgp{
+    display: inline-flex;
+}
+/* Quienes somos */
+#contenedor3{
+    margin-top: 50px;
+    text-align: center;
+}
+#tabla{
+    width: 25%;
+    margin: auto;
+}
+#tabla,th,td{
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(70, 70, 70);
+    border-style: solid;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 10px;
+    text-align: center; 
+}
+/* Servicios */
+#servicios{
+    margin-top: 50px;
+    list-style-position: inside;
+    margin-left: 750px;
+}
+#servicios h1 {
+    margin-left: 40px;
+}
+/* Contacto */
+#contenedor4{
+    margin-top: 50px;
+    margin-left: 30%;
+}
+fieldset{
+    border: 0;
+}
+
